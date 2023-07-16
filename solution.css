@@ -1,4 +1,9 @@
 /* Approach: go from inside to outside */
+/* Approach: 50% border radius = a circle */
+
+div {
+	border-radius: 50%
+}
 
 #outer {
 	background-color: #ffa500;
