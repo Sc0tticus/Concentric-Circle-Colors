@@ -1,5 +1,12 @@
 /* Approach: go from inside to outside */
 
+#middle {
+	background-color: #008000;
+	width: 100px;
+	height: 100px;
+	padding: 25px;
+}
+
 #inner {
 	background-color: #800080;
 	width: 50px;
