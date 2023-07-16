@@ -1,6 +1,8 @@
 /* Approach: go from inside to outside */
 /* Approach: 50% border radius = a circle */
 
+/* Basic Solution */
+
 div {
 	border-radius: 50%
 }
