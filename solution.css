@@ -5,6 +5,7 @@
 	width: 100px;
 	height: 100px;
 	padding: 25px;
+	border: 25px solid #ffff00
 }
 
 #inner {
