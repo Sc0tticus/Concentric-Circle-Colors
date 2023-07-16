@@ -1,0 +1,48 @@
+<!-- Impement a sign-up form in HTML with the following six input fields, each with an appropriate label:
+1. Username, a required text input field.
+2. Password, a required password input field.
+3. Email, a required email input field.
+4. Phone Number, an optional telephone input field.
+5. Date of Birth, an optional date-picker input field.
+6. I agree to TOS, a required checkbox input field.
+
+There should also be a Sign Up button at the bottom of the form. When clicked on (and if all required fields
+have filled), the button should submit the form using default browser behavior.
+
+Note that submitting the form in your Browser Output or in the Expect Output will result in a broken
+page being displayed.
+
+You only need to write HTML that would go inside of a documents <body> tag; no need to worry about the
+	<head> tag, the <html> tag, or the !DOCTYPE declaration. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<form>
+		<label for="username">Username:</label>
+		<input type="text" name="username" id="username" required>
+
+		<label for="password">Password:</label>
+		<input type="password" name="password" id="password" required>
+
+		<label for="email">Email:</label>
+		<input type="email" name="email" id="email" required>
+		
+		<label for="phone">Phone Number:</label>
+		<input type="tel" name="phone" id="phone">
+
+		<label for="birthday">Date of Birth:</label>
+		<input type="date" name="birthday" id="birthday">
+
+		<label for="tos">I agree to the TOS</label>
+		<input type="checkbox" name="tos" id="tos" required>
+
+		<button type="submit">Sign Up</button>
+	</form>
+</body>
+</html>
